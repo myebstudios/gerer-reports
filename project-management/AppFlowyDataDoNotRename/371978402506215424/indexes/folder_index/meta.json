@@ -3,46 +3,7 @@
     "docstore_compression": "lz4",
     "docstore_blocksize": 16384
   },
-  "segments": [
-    {
-      "segment_id": "44e5b116-543f-4514-9843-f55d6b446536",
-      "max_doc": 34,
-      "deletes": {
-        "num_deleted_docs": 5,
-        "opstamp": 3123
-      }
-    },
-    {
-      "segment_id": "a9e0202e-cb36-4ef4-878a-5b7ef346b893",
-      "max_doc": 1,
-      "deletes": null
-    },
-    {
-      "segment_id": "ef444037-e0ea-49ec-91a8-014d8b929d5c",
-      "max_doc": 1,
-      "deletes": null
-    },
-    {
-      "segment_id": "413fa0c5-a819-4d64-bcbf-c0e5a5c2d82f",
-      "max_doc": 1,
-      "deletes": null
-    },
-    {
-      "segment_id": "87aa2720-3218-4114-aaf1-e23e69f85707",
-      "max_doc": 1,
-      "deletes": null
-    },
-    {
-      "segment_id": "c2ceaa92-d1cb-4a63-b83a-be412b606714",
-      "max_doc": 1,
-      "deletes": null
-    },
-    {
-      "segment_id": "e67675b9-1637-44de-a981-5ee2c0237732",
-      "max_doc": 1,
-      "deletes": null
-    }
-  ],
+  "segments": [],
   "schema": [
     {
       "name": "id",
@@ -107,5 +68,5 @@
       }
     }
   ],
-  "opstamp": 3178
+  "opstamp": 1
 }
