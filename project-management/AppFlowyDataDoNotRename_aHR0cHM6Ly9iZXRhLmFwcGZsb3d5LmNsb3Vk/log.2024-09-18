@@ -1,0 +1,441 @@
+{"msg":"💡Some(\"MacOS 15.1 \"), platform: MacOS","time":"09-18 14:30:21","target":"flowy_core"}
+{"msg":"[🟢 INIT - START]","time":"09-18 14:30:21","target":"flowy_core"}
+{"msg":"[INIT - EVENT] 🔥AppFlowy Configuration { app_version: Version { major: 0, minor: 6, patch: 7 }, storage_path: \"/Users/esoefildine/Documents/Esoe B.Studios/Dev/gerer-reports/project-management/AppFlowyDataDoNotRename_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk\", application_path: \"/Users/esoefildine/Library/Application Support/com.appflowy.appflowy.flutter/data\", base_url: \"https://beta.appflowy.cloud\", ws_url: \"wss://beta.appflowy.cloud:443/ws/v1\", gotrue_url: \"https://beta.appflowy.cloud/gotrue\" }","time":"09-18 14:30:21","target":"flowy_core"}
+{"msg":"[AI Plugin] state: Connecting","time":"09-18 14:30:21","target":"flowy_ai::local_ai::local_llm_chat"}
+{"msg":"[INIT - EVENT] init user session: 371978402506215424:9269e869-93a8-4add-b467-ccaa2a1bf93d@appflowy.io, authenticator: Local","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager"}
+{"msg":"[INIT - EVENT] open collab db for user 371978402506215424 at path: \"/Users/esoefildine/Documents/Esoe B.Studios/Dev/gerer-reports/project-management/AppFlowyDataDoNotRename_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk/371978402506215424/collab_db\"","time":"09-18 14:30:21","target":"flowy_user::services::db"}
+{"msg":"[INIT - EVENT] open collab db to validate data integration for user 371978402506215424","time":"09-18 14:30:21","target":"flowy_user::services::db"}
+{"msg":"[INIT - EVENT] Prepare user data migration","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 BACKUP_COLLAB_DB - START]","time":"09-18 14:30:21","target":"flowy_user::services::db"}
+{"msg":"[BACKUP_COLLAB_DB - EVENT] Backup collab db to \"/Users/esoefildine/Documents/Esoe B.Studios/Dev/gerer-reports/project-management/AppFlowyDataDoNotRename_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk/371978402506215424/collab_db_history/collab_db_20240918.zip\"","time":"09-18 14:30:21","target":"flowy_user::services::db"}
+{"msg":"[🟢 TRY_INITIAL_USER_AWARENESS - START]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager_user_awareness"}
+{"msg":"[TRY_INITIAL_USER_AWARENESS - END]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager_user_awareness","elapsed_milliseconds":0}
+{"msg":"[🟢 INITIALIZE - START]","time":"09-18 14:30:21","target":"flowy_folder::manager_init","uid":371978402506215424,"workspace_id":"0678c5d1-8608-4db6-87f6-c1dd3c2eb463"}
+{"msg":"[INITIALIZE - EVENT] Init workspace: 0678c5d1-8608-4db6-87f6-c1dd3c2eb463 from: LocalDisk","time":"09-18 14:30:21","target":"flowy_folder::manager_init","uid":371978402506215424,"workspace_id":"0678c5d1-8608-4db6-87f6-c1dd3c2eb463"}
+{"msg":"[INITIALIZE - EVENT] Init folder from local disk","time":"09-18 14:30:21","target":"flowy_folder::manager_init","uid":371978402506215424,"workspace_id":"0678c5d1-8608-4db6-87f6-c1dd3c2eb463"}
+{"msg":"get collab:workspace_id: 0678c5d1-8608-4db6-87f6-c1dd3c2eb463, object_id: 7d705631-399c-5f3f-9f1c-ee7762820bbc, collab_type: UserAwareness","time":"09-18 14:30:21","target":"client_api::native::http_native"}
+{"msg":"client_api::http","time":"09-18 14:30:21","target":"client_api::http","error":"code:NotLoggedIn msg: Not Logged In:token is empty"}
+{"msg":"[INITIALIZE - END]","time":"09-18 14:30:21","target":"flowy_folder::manager_init","elapsed_milliseconds":16,"uid":371978402506215424,"workspace_id":"0678c5d1-8608-4db6-87f6-c1dd3c2eb463"}
+{"msg":"[INIT - EVENT] open aggregate database views object: 0394eb55-bcec-4976-9f93-362c16b5bf77","time":"09-18 14:30:21","target":"flowy_database2::manager"}
+{"msg":"[INIT - END]","time":"09-18 14:30:21","target":"flowy_core","elapsed_milliseconds":84}
+{"msg":"[Flutter]: Loaded icon groups in 23ms","time":"09-18 14:30:21","target":"dart_ffi"}
+{"msg":"[Flutter]: [CachedRecentService] Initialized","time":"09-18 14:30:21","target":"dart_ffi"}
+{"msg":"[BACKUP_COLLAB_DB - EVENT] Current backup: 3","time":"09-18 14:30:21","target":"flowy_user::services::db"}
+{"msg":"[BACKUP_COLLAB_DB - END]","time":"09-18 14:30:21","target":"flowy_user::services::db","elapsed_milliseconds":67}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: init workspace, current workspace: 0678c5d1-8608-4db6-87f6-c1dd3c2eb463, workspaces: (0678c5d1-8608-4db6-87f6-c1dd3c2eb463), isCollabWorkspaceOn: false","time":"09-18 14:30:21","target":"dart_ffi"}
+{"msg":"flowy_user::user_manager::manager_user_workspace","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager_user_workspace","error":"NotSupportYet: Not support yet"}
+{"msg":"flowy_user::event_handler","time":"09-18 14:30:21","target":"flowy_user::event_handler","error":"NotSupportYet: Not support yet"}
+{"msg":"[🟢 GET_CLOUD_CONFIG_HANDLER - START]","time":"09-18 14:30:21","target":"flowy_user::event_handler"}
+{"msg":"[GET_CLOUD_CONFIG_HANDLER - END]","time":"09-18 14:30:21","target":"flowy_user::event_handler","elapsed_milliseconds":0}
+{"msg":"[Flutter]: Start fetching reminders","time":"09-18 14:30:21","target":"dart_ffi"}
+{"msg":"[🟢 TRY_INITIAL_USER_AWARENESS - START]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager_user_awareness"}
+{"msg":"[TRY_INITIAL_USER_AWARENESS - END]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager_user_awareness","elapsed_milliseconds":0}
+{"msg":"User awareness not found, creating new","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager_user_awareness"}
+{"msg":"[Flutter]: Billing is not enabled for server ","time":"09-18 14:30:21","target":"dart_ffi"}
+{"msg":"[Flutter]: Fetched reminders on startup: 0","time":"09-18 14:30:21","target":"dart_ffi"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"Open view: 1da22b46-6475-44f4-89e9-8fc6b3057517","time":"09-18 14:30:21","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:30:21","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:30:21","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:30:21","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:30:21","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:30:21","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:30:22","target":"dart_ffi"}
+{"msg":"client_api::http","time":"09-18 14:30:23","target":"client_api::http","error":"code:NotLoggedIn msg: Not Logged In:token is empty"}
+{"msg":"client_api::http","time":"09-18 14:30:27","target":"client_api::http","error":"code:NotLoggedIn msg: Not Logged In:token is empty"}
+{"msg":"Open view: 542cb357-b593-4a42-bf60-4796841691a7","time":"09-18 14:30:31","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:30:31","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:30:31","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7","elapsed_milliseconds":1}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:30:31","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:30:31","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:30:31","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:30:31","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:30:31","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:30:31","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:30:31","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:30:31","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:30:31","target":"dart_ffi"}
+{"msg":"client_api::http","time":"09-18 14:30:35","target":"client_api::http","error":"code:NotLoggedIn msg: Not Logged In:token is empty"}
+{"msg":"prepare upload task: 0","time":"09-18 14:30:41","target":"flowy_storage::manager"}
+{"msg":"Open view: 1107441c-fe98-43cc-ac81-5715eefae9e5","time":"09-18 14:31:12","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:12","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:12","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5","elapsed_milliseconds":1}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:12","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:12","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:12","target":"dart_ffi"}
+{"msg":"Open view: 396c4f45-cf38-4e76-aaa1-4cfea420a251","time":"09-18 14:31:12","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:12","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:12","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251","elapsed_milliseconds":0}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 14:31:12","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 14:31:12","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 14:31:12","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 14:31:12","target":"dart_ffi"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:12","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:12","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:12","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:13","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:13","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:13","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:13","target":"dart_ffi"}
+{"msg":"Open view: 542cb357-b593-4a42-bf60-4796841691a7","time":"09-18 14:31:18","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:18","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:18","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7","elapsed_milliseconds":0}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:18","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:18","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:18","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:18","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:18","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:18","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:18","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:18","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:18","target":"dart_ffi"}
+{"msg":"Open view: 58e9fe2b-5307-4a70-9f92-5cf17b6d9b53","time":"09-18 14:31:24","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:24","target":"flowy_document::manager","doc_id":"58e9fe2b-5307-4a70-9f92-5cf17b6d9b53"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:24","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"58e9fe2b-5307-4a70-9f92-5cf17b6d9b53"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:24","target":"flowy_document::manager","doc_id":"58e9fe2b-5307-4a70-9f92-5cf17b6d9b53"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:24","target":"flowy_document::manager","doc_id":"58e9fe2b-5307-4a70-9f92-5cf17b6d9b53","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:24","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:24","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:24","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:24","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:24","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:24","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:24","target":"dart_ffi"}
+{"msg":"Open view: 1107441c-fe98-43cc-ac81-5715eefae9e5","time":"09-18 14:31:26","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:26","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:26","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5","elapsed_milliseconds":0}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:26","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:26","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:26","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:26","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:26","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:26","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:26","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:26","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:26","target":"dart_ffi"}
+{"msg":"Open view: 1da22b46-6475-44f4-89e9-8fc6b3057517","time":"09-18 14:31:30","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:30","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:30","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517","elapsed_milliseconds":0}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:30","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:30","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:30","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:30","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:30","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:30","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:30","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:30","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:30","target":"dart_ffi"}
+{"msg":"Open view: 396c4f45-cf38-4e76-aaa1-4cfea420a251","time":"09-18 14:31:33","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:33","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:33","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251","elapsed_milliseconds":0}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 14:31:33","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 14:31:33","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 14:31:33","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 14:31:33","target":"dart_ffi"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:33","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:33","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:33","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:33","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:33","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:33","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:33","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:33","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:33","target":"dart_ffi"}
+{"msg":"Open view: 1107441c-fe98-43cc-ac81-5715eefae9e5","time":"09-18 14:31:46","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:46","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:46","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5","elapsed_milliseconds":0}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:31:46","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:31:46","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:46","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:46","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:46","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:46","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:46","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:46","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:46","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:47","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:31:47","target":"dart_ffi"}
+{"msg":"Open view: d2ad90ea-beba-4c9d-89cd-44df2ebf0c56","time":"09-18 14:31:51","target":"flowy_folder::manager"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:31:51","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:31:51","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"09-18 14:31:51","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"09-18 14:31:51","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":1}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"09-18 14:31:51","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"09-18 14:31:51","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"Open view: 542cb357-b593-4a42-bf60-4796841691a7","time":"09-18 14:32:07","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:32:07","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:32:07","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:32:07","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:32:07","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:32:07","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:32:07","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:32:07","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:32:07","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:32:07","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:32:07","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:32:07","target":"dart_ffi"}
+{"msg":"Open view: 1da22b46-6475-44f4-89e9-8fc6b3057517","time":"09-18 14:32:09","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:32:09","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:32:09","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517","elapsed_milliseconds":0}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 14:32:09","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 14:32:09","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:32:09","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:32:09","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:32:09","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:32:09","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 14:32:09","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 14:32:09","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:32:09","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:08","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:37:12","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:38:29","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:38:29","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:38:34","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:45:05","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:45:22","target":"dart_ffi"}
+{"msg":"[Document] apply_action error: BlockIsNotFound","time":"09-18 14:45:25","target":"collab_document::document"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 14:45:25","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:03:09","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:03:09","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:03:47","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:03:47","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:03:59","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:01","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:04","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:08","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:12","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:12","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:13","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:21","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:21","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:22","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:22","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:22","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:23","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:24","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:24","target":"dart_ffi"}
+{"msg":"[Flutter]: Uncaught platform error","time":"09-18 15:04:24","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:24","target":"dart_ffi"}
+{"msg":"[🟢 GET_CLOUD_CONFIG_HANDLER - START]","time":"09-18 15:04:31","target":"flowy_user::event_handler"}
+{"msg":"[GET_CLOUD_CONFIG_HANDLER - END]","time":"09-18 15:04:31","target":"flowy_user::event_handler","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:31","target":"dart_ffi"}
+{"msg":"[Flutter]: Start fetching reminders","time":"09-18 15:04:31","target":"dart_ffi"}
+{"msg":"[Flutter]: Billing is not enabled for server ","time":"09-18 15:04:31","target":"dart_ffi"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:04:31","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:04:31","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: Fetched reminders on startup: 0","time":"09-18 15:04:31","target":"dart_ffi"}
+{"msg":"Open view: d2ad90ea-beba-4c9d-89cd-44df2ebf0c56","time":"09-18 15:04:33","target":"flowy_folder::manager"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:04:33","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:04:33","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"09-18 15:04:33","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"09-18 15:04:33","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"09-18 15:04:33","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"09-18 15:04:33","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"Open view: 396c4f45-cf38-4e76-aaa1-4cfea420a251","time":"09-18 15:04:54","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:04:54","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:04:54","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251","elapsed_milliseconds":0}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:04:54","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:04:54","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:04:54","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:04:54","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:04:54","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:04:54","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:04:54","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:04:54","target":"dart_ffi"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:04:54","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:04:54","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:04:54","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:04:54","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:54","target":"dart_ffi"}
+{"msg":"Open view: 1da22b46-6475-44f4-89e9-8fc6b3057517","time":"09-18 15:04:56","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:04:56","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:04:56","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:04:56","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:04:56","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:04:56","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:04:56","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:04:56","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:04:56","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:04:56","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:04:56","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:56","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:57","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:58","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:04:58","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:06:28","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:08:27","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:08:27","target":"dart_ffi"}
+{"msg":"[🟢 GET_CLOUD_CONFIG_HANDLER - START]","time":"09-18 15:17:29","target":"flowy_user::event_handler"}
+{"msg":"[GET_CLOUD_CONFIG_HANDLER - END]","time":"09-18 15:17:29","target":"flowy_user::event_handler","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:17:29","target":"dart_ffi"}
+{"msg":"[Flutter]: Start fetching reminders","time":"09-18 15:17:29","target":"dart_ffi"}
+{"msg":"[Flutter]: Billing is not enabled for server ","time":"09-18 15:17:29","target":"dart_ffi"}
+{"msg":"[Flutter]: Fetched reminders on startup: 0","time":"09-18 15:17:29","target":"dart_ffi"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:17:29","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:17:29","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"Open view: 396c4f45-cf38-4e76-aaa1-4cfea420a251","time":"09-18 15:17:31","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:17:31","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:17:31","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:17:31","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:17:31","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:17:31","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:17:31","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:17:31","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:17:31","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:17:31","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:17:31","target":"dart_ffi"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:17:31","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:17:31","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:17:31","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:17:31","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:17:31","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:17:32","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:17:57","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:17:57","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:17:57","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:17:58","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:18:01","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:18:02","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:18:02","target":"dart_ffi"}
+{"msg":"Open view: 1107441c-fe98-43cc-ac81-5715eefae9e5","time":"09-18 15:18:02","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:18:02","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:18:02","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5","elapsed_milliseconds":1}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:18:02","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:18:02","target":"flowy_document::manager","doc_id":"1107441c-fe98-43cc-ac81-5715eefae9e5","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:02","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:02","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:02","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:02","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:02","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:02","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:18:02","target":"dart_ffi"}
+{"msg":"Open view: 58e9fe2b-5307-4a70-9f92-5cf17b6d9b53","time":"09-18 15:18:03","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:18:03","target":"flowy_document::manager","doc_id":"58e9fe2b-5307-4a70-9f92-5cf17b6d9b53"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:18:03","target":"flowy_document::manager","doc_id":"58e9fe2b-5307-4a70-9f92-5cf17b6d9b53","elapsed_milliseconds":0}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:18:03","target":"flowy_document::manager","doc_id":"58e9fe2b-5307-4a70-9f92-5cf17b6d9b53"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:18:03","target":"flowy_document::manager","doc_id":"58e9fe2b-5307-4a70-9f92-5cf17b6d9b53","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:03","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:03","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:03","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:03","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:03","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:03","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:18:03","target":"dart_ffi"}
+{"msg":"Open view: 542cb357-b593-4a42-bf60-4796841691a7","time":"09-18 15:18:04","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:18:04","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:18:04","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7","elapsed_milliseconds":1}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:18:04","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:18:04","target":"flowy_document::manager","doc_id":"542cb357-b593-4a42-bf60-4796841691a7","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:04","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:04","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:04","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:04","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:04","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:04","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:18:04","target":"dart_ffi"}
+{"msg":"Open view: 1da22b46-6475-44f4-89e9-8fc6b3057517","time":"09-18 15:18:05","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:18:05","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:18:05","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:18:05","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:18:05","target":"flowy_document::manager","doc_id":"1da22b46-6475-44f4-89e9-8fc6b3057517","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:05","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:05","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:05","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:05","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:18:05","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:18:05","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:18:05","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:29:16","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:29:16","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:29:19","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:32:52","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:32:55","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:32:56","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:32:59","target":"dart_ffi"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:33:02","target":"dart_ffi"}
+{"msg":"[Document] apply_action error: BlockIsNotFound","time":"09-18 15:33:05","target":"collab_document::document"}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:33:05","target":"dart_ffi"}
+{"msg":"Open view: d2ad90ea-beba-4c9d-89cd-44df2ebf0c56","time":"09-18 15:42:06","target":"flowy_folder::manager"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:42:06","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:42:06","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"09-18 15:42:06","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"09-18 15:42:06","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"09-18 15:42:06","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"09-18 15:42:06","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"09-18 15:42:10","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"09-18 15:42:10","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"Open view: 396c4f45-cf38-4e76-aaa1-4cfea420a251","time":"09-18 15:42:17","target":"flowy_folder::manager"}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:42:17","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:42:17","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251","elapsed_milliseconds":0}
+{"msg":"[🟢 INIT_DOCUMENT_INSTANCE - START]","time":"09-18 15:42:17","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251"}
+{"msg":"[INIT_DOCUMENT_INSTANCE - END]","time":"09-18 15:42:17","target":"flowy_document::manager","doc_id":"396c4f45-cf38-4e76-aaa1-4cfea420a251","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:42:17","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:42:17","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:42:17","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:42:17","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:42:17","target":"dart_ffi"}
+{"msg":"[Flutter]: did receive section views changed","time":"09-18 15:42:17","target":"dart_ffi"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:42:17","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:42:17","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:42:17","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:42:17","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: unable to decode token: FormatException: Unexpected end of input (at character 1)\n\n^\n","time":"09-18 15:42:17","target":"dart_ffi"}
+{"msg":"Open view: d2ad90ea-beba-4c9d-89cd-44df2ebf0c56","time":"09-18 15:42:19","target":"flowy_folder::manager"}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"09-18 15:42:19","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"09-18 15:42:19","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"09-18 15:42:19","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[V_GET_ROWS - END]","time":"09-18 15:42:19","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"09-18 15:42:19","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"09-18 15:42:19","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
